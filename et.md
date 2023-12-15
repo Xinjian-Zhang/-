@@ -38,7 +38,7 @@ Tue 19.12.2023 - 8.35 ~ 8.45
 | Vere: | Ma õpin kultuuriteadus. |
 | Xin: | Mis keelt sa räägid? |
 | Vere: | Minu emakeel on saksa keel. Ma räägin ka inglise keelt ja ma oskan hispaania keelt. Aga sina? |
-| Xin: | Ma räägin hiina keelt, inglise keelt ja natuke jaapani keelt. (maybe: Ma arvan, et eesti keel on ilus keel.) |
+| Xin: | Ma räägin hiina keelt, inglise keelt ja natuke jaapani keelt. Ma arvan, et eesti keel on ilus keel. |
 | Vere: | Mis on sinu telefoninumber? |
 | Xin: | Minu telefoninumber on 58099350. Aga sinu? |
 | Vere: | Minu telefoninumber on 1795138930. |
@@ -60,8 +60,7 @@ Tue 19.12.2023 - 8.35 ~ 8.45
 | Xin: | Minu lemmiktoit on kana riisiga. |
 | Vere: | Mis on sinu lemmikjook? |
 | Xin: | Minu lemmikjook on kohv. |
-| Vere: | Kas on kohv odav või kallis kohvikus? |
-| Xin: | Kohv on kallis kohvikus. Ma joon kohvi tavaliselt kodus. |
+| Vere: | Mulle ka meeldib kohv. |
 
 ----
 
@@ -69,12 +68,9 @@ Tue 19.12.2023 - 8.35 ~ 8.45
 
 | Pers | Dialogue |
 | ---- | ---- |
-| Vere: | Mulle ka meeldib kohv. Mis puuviljad sulle meeldivad? |
-| Xin: | Mulle meeldivad õunad ja banaanid. Aga mulle ei meeldi ananassid. Aga sulle? |
-| Vere: | Mulle meeldivad (your favorite fruit). |
 | Xin: | Mis on sinu lemmiksport? |
-| Vere: | Minu lemmiksport on (your favorite sport). Aga sinu? |
-| Xin: | Minu lemmiksport on jalgpall. |
+| Vere: | Minu lemmiksport on jalgpall. Aga sinu? |
+| Xin: | Minu lemmiksport on ka jalgpall. |
 | Vere: | Kas sa mängid jalgpalli? |
 | Xin: | Ei, ma ei mängi jalgpalli. Aga ma vaatan jalgpalli. |
 
@@ -89,11 +85,11 @@ Tue 19.12.2023 - 8.35 ~ 8.45
 | Vere: | Ma ärkan tavaliselt kell 8:30. Siis ma joon kohvi ja söön hommikust. |
 | Xin: | Mis sa sööd hommikusööki? |
 | Vere: | Ma tavaliselt söön putru moosiga. |
-| Xin: | Mis kell sa lähed kooli? |
-| Vere: | Ma lähen kooli kell 10. Ma lähen kooli jalgsi. Aga sina? |
-| Xin: | Ma ka lähen kooli kell 9. |
+| Xin: | Kuida sa kooli lähed? |
+| Vere: | Ma lähen kooli jalgsi. Aga sina? |
+| Xin: | Ma lähen kooli bussiga. |
 | Vere: | Siis ma õpin koolis. Mis sa teed koolis? |
-| Xin: | Ma kuulan loenguid ja teen kodutööd. Siis ma lähen koju. Aga sina? |
+| Xin: | Ma kuulan loenguid ja teen märkmeid. Siis ma lähen koju. Aga sina? |
 | Vere: | Pärast kooli ma lähen poodi. Ma ostan süüa. Siis ma lähen koju. Ma teen süüa. |
 | Xin: | Mis sa teed õhtul? |
 | Vere: | Õhtul ma kohtun sõpradega baaris. Aga sina? |
