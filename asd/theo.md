@@ -86,11 +86,16 @@ C. Customer collaboration over contract negotiation
 
 D. Responding to change over following a plan
 
-A5: **D. Responding to change over following a plan**
+A5: **A. Teams and interactions over processes and tools**
 
-Exp5: 
+Exp5:
 
-敏捷宣言(The Agile Manifesto)明确强调“响应变化优于遵循计划”。这一原则强调了软件开发中灵活性和适应性的重要性，即欢迎变化，即使在开发过程的后期，也要更好地满足客户需求和应对不断变化的项目需求。列表中的其他选项(团队和互动优于流程和工具，工作软件优于全面文档，客户协作优于合同谈判)都是敏捷宣言的一部分，反映了其核心价值观。
+敏捷软件开发宣言的四个价值观是:
+
+- 个人和互动高于过程和工具
+- 可运行软件高于完善的文档
+- 客户合作高于合同协商
+- 响应变化高于遵循计划
 
 ----
 
