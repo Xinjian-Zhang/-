@@ -45,14 +45,12 @@ Your requirements specification must be:
   Refine one operation using the use case textual template.
 
 5. **Specific requirements**. What are the functional and non-functional requirements of the newly developed system? From solutions given in Tasks 2, 3 and 4, elicit at least ***six functional\*** and ***four non-functional*** requirements (write their textual expressions). All requirements must respect criteria of good requirements.
-
   Which functional requirements are mandatory? Which functional requirements are optional?
   Select 2 most important functional requirements from the list of optional functional requirements. Explain your selection using AHP method.
 
 6. Refine the 2 selected (see task 5) functional requirements to the solution-oriented requirements:
-
-- Create a class diagram that describes data used in the information system.
-- Create a state diagram for one object from the class diagram.
+   - Create a class diagram that describes data used in the information system.
+   - Create a state diagram for one object from the class diagram.
 
 ----
 
