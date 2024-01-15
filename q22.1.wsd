@@ -1,0 +1,10 @@
+@startuml
+[*] --> Stopped
+Stopped --> Playing : Play
+Stopped --> Paused : PauseInStopped
+Playing --> Paused : Pause
+Playing --> Stopped : Stop
+Paused --> Playing : Play
+Paused --> Stopped : StopFromPause
+Paused --> Stopped : StopInPaused
+@enduml

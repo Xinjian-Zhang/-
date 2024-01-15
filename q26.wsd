@@ -1,0 +1,28 @@
+@startuml
+[*] --> Order_Placed
+Order_Placed --> Payment_Processing : select payment method
+Payment_Processing --> Payment_Successful : payment successful
+Payment_Processing --> Payment_Failed : payment failed
+Payment_Successful --> Cooking : cook processes order
+Payment_Failed --> Order_Placed : retry payment
+
+Cooking : entry / Cook prepares meal and checks inventory
+Cooking --> Packing : meal is ready
+
+state Packing {
+  [*] --> Decide_Delivery_Method
+  Decide_Delivery_Method --> Delivery : delivery selected
+  Decide_Delivery_Method --> Pickup : pickup selected
+  
+  Delivery --> Out_For_Delivery : package meal
+  Pickup --> Awaiting_Pickup : package meal
+  
+  Out_For_Delivery --> Delivered : delivered to customer
+  Awaiting_Pickup --> Picked_Up : customer arrives for pickup
+  
+  Delivered --> Order_Completed : confirm receipt
+  Picked_Up --> Order_Completed : confirm receipt
+}
+
+Order_Completed --> [*]
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+actor User
+participant "System"
+
+User -> System : requestFeature()
+opt featureEnabled
+    System -> User : provideFeature()
+end
+@enduml

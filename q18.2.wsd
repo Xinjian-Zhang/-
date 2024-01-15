@@ -1,0 +1,9 @@
+@startuml
+actor User
+participant "System"
+
+loop while (value < 5)
+    User -> System : incrementValue()
+    System -> User : valueUpdated()
+end
+@enduml

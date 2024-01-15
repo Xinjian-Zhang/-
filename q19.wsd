@@ -1,0 +1,17 @@
+@startuml
+start
+:Receive order;
+:Validate order;
+if (Is order valid?) then (yes)
+  :Process payment;
+  if (Is payment successful?) then (yes)
+    :Prepare order;
+    :Dispatch order;
+  else (no)
+    :Cancel order;
+  endif
+else (no)
+  :Reject order;
+endif
+stop
+@enduml

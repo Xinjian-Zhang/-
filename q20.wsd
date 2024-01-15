@@ -1,0 +1,44 @@
+@startuml
+start
+partition Customer {
+  :Select meal from menu;
+  :Place order;
+  if (Delivery or Pickup?) then (Delivery)
+    :Choose delivery address;
+  else (Pickup)
+    :Choose pickup time;
+  endif
+  :Choose payment method;
+}
+
+partition PaymentService {
+  if (Pay now or upon delivery?) then (Pay now)
+    :Process payment;
+  else (Upon delivery)
+    :Defer payment;
+  endif
+}
+
+partition Kitchen {
+  :Prepare meal;
+  :Check and update inventory;
+  :Package meal;
+}
+
+partition DeliverySystem {
+  if (Delivery selected?) then (yes)
+    :Deliver meal to customer;
+  else (no)
+    :Hold meal for pickup;
+  endif
+}
+
+partition Customer {
+  :Receive meal;
+  if (Payment upon delivery?) then (yes)
+    :Pay for meal;
+  endif
+  :Mark order as completed;
+}
+stop
+@enduml

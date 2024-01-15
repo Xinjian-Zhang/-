@@ -1,0 +1,12 @@
+@startuml
+state "Main State" as Main {
+  state "Substate A" as A
+  state "Substate B" as B
+  A --> B: to B
+  B --> A: to A
+  Main --> [H]: Reactivate
+}
+
+[*] --> Main
+Main --> [*] : Finished
+@enduml
